@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - SportGear Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">SportGear Center</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="kategori.html">Kategori</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="info-section">
+            <div class="features-row">
+                <div class="feature"><span class="icon">🚚</span><br>Gratis Ongkir</div>
+                <div class="feature"><span class="icon">🛡️</span><br>Garansi 1 Tahun</div>
+                <div class="feature"><span class="icon">💵</span><br>Bayar di Tempat (COD)</div>
+                <div class="feature"><span class="icon">🎧</span><br>Support 24/7</div>
+            </div>
+            
+            <div class="checkout-area">
+                
+                <div id="formContainer" class="form-container">
+                    <h3>Formulir Pembelian</h3>
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <label for="nomorHp">Nomor WhatsApp Aktif</label>
+                            <input type="tel" id="nomorHp" placeholder="Contoh: 081234567890" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Gmail / Email</label>
+                            <input type="email" id="email" placeholder="contoh@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="alamat">Alamat Pengiriman Lengkap</label>
+                            <textarea id="alamat" rows="3" placeholder="Tuliskan alamat lengkap beserta kode pos..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Proses Pesanan</button>
+                    </form>
+                </div>
+
+                <div id="waRedirect" class="wa-redirect-box" style="display: none;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="wa-logo-large">
+                    <h3>Menghubungkan ke WhatsApp...</h3>
+                    <p>Pesanan Anda sedang diproses. Anda akan segera dialihkan ke Admin kami.</p>
+                    <div class="loader"></div>
+                </div>
+
+            </div>
+
+            <div class="stats-row">
+                <div class="stat"><h3>12.500+</h3><p>Pelanggan Puas</p></div>
+                <div class="stat"><h3>350+</h3><p>Produk Tersedia</p></div>
+                <div class="stat"><h3>34</h3><p>Kota Terjangkau</p></div>
+                <div class="stat"><h3>4.9★</h3><p>Rating Toko</p></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 IRONFIT. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
